@@ -1,0 +1,58 @@
+body {
+  width: 480px;
+}
+
+h1 {
+  height: 75px;
+}
+
+aside {
+  height: 150px;
+}
+
+.c, .d {
+  height: 125px;
+}
+
+.e, .f, .g, .h {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+.i{
+  height: 80px;
+  clear: both;
+}
+
+@media only screen and  (min-width: 550px) {
+body {
+  width: 960px;
+}
+
+h1{
+  width: 100%;
+}
+aside {
+  height: 600px;
+  width: 20.833333%;
+  float: left;
+}
+.c, .d {
+  float: left;
+  width: 39.583333%;
+  height: 200px;
+}
+.e, .f, .g, .h {
+  width: 19.791667%;
+  height: 250px;
+  float: left;
+}
+.i {
+  height: 150px;
+  width: 79.166667%;
+  clear: none;
+  float: left;
+}
+
+}
