@@ -1,6 +1,4 @@
-body {
-  width: 480px;
-}
+
 
 h1, article {
   width: 100%;
@@ -14,17 +12,17 @@ aside {
   height: 150px;
 }
 
-.c, .d {
+#c, #d {
   height: 125px;
 }
 
-.e, .f, .g, .h {
+#e, #f, #g, #h {
   width: 50%;
   height: 250px;
   float: left;
 }
 
-.i{
+#i{
   height: 80px;
 }
 
@@ -41,15 +39,15 @@ aside {
   height: 600px;
   width: 20.833333%;
 }
-.c, .d {
+#c, #d {
   width: 39.583333%;
   height: 200px;
 }
-.e, .f, .g, .h {
+#e, #f, #g, #h {
   width: 19.791667%;
   height: 250px;
 }
-.i {
+#i {
   height: 150px;
   width: 79.166667%;
 }

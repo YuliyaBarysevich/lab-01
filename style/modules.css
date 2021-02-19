@@ -1,71 +1,109 @@
-h1, aside, article, footer{
-  border: 1px solid black;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-}
 
-
-h1, .b, .c, .d, .e, .f, .g, .h, .i{
+main div {
+  display: block;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  border: 1px solid grey;
 }
 
-h1 {
+#a {
   background-color: #73FFFF;
 }
-aside {
+#b {
   background-color: #00D9D9;
 }
-.c {
+#c {
   background-color: #00B2B2;
 }
-.d {
+#d {
   background-color: #00B2B2;
 }
-.e {
+#e {
   background-color: #008C8C;
 }
-.f {
+#f {
   background-color: #008C8C;
 }
-.g {
+#g {
   background-color: #008C8C;
 }
-.h {
+#h {
     background-color: #008C8C;
 }
-.i {
+#i {
   background-color: #005f5f;
 }
 
-@media (min-width: 768px) {
-  h1 {
+@media (min-width: 500px) {
+  #a {
+    background-color: #807eec;
+    color: honeydew;
+  
+  }
+  #b {
+    background-color: #6b69bb;
+    color: honeydew
+  }
+  #c {
+    background-color: #3f3e9c;
+    color: honeydew;
+  }
+  #d {
+    background-color: #3f3e9c;
+    color: honeydew;
+  }
+  #e {
+    background-color: #222163;
+    color: honeydew;
+  }
+  #f {
+    background-color: #222163;
+    color: honeydew;
+  }
+  #g {
+    background-color: #222163;
+    color: honeydew;
+  }
+  #h {
+      background-color: #222163;
+      color: honeydew;
+  }
+  #i {
+    background-color: #130752;
+    color: honeydew;
+  }
+}
+
+
+@media (min-width: 790px) {
+  #a {
     background-color: #fdaef3;
   }
-  aside {
+  #b {
     background-color: #ec8fe0;
   }
-  .c {
+  #c {
     background-color: #eb73e1;
   }
-  .d {
+  #d {
     background-color: #eb73e1;
   }
-  .e {
+  #e {
     background-color: #c43dc4;
   }
-  .f {
+  #f {
     background-color: #c43dc4;
   }
-  .g {
+  #g {
     background-color: #c43dc4;
   }
-  .h {
+  #h {
       background-color: #c43dc4;
   }
-  .i {
+  #i {
     background-color: #7e066e;
   }
 }
+
