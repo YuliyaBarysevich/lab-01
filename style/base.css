@@ -1,8 +1,9 @@
-*{
+  
+ *{
   box-sizing: border-box;
 }
 
-body{
-  height: 100vh;
-  margin: 10px auto;
+body {
+  width: 480px;
 }
+
